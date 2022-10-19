@@ -1,0 +1,39 @@
+﻿<?xml version="1.0"?>
+<settings>
+   
+  <!-- for detailed info about the settings see http://webgrabplus.com/documentation/configuration/webgrabconfigxml 
+  and http://webgrabplus.com/sites/default/files/downloads/Misc/Documented_Configuration_Files.zip -->
+   
+  <filename>guide.xml</filename>
+  <mode></mode>
+  <postprocess grab="y" run="n">rex</postprocess>
+  <user-agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36 Edg/79.0.309.71</user-agent>
+  <!--<decryptkey site="site-name">decrypt_userkey</decryptkey>-->
+  <!--<license wg-username="your webgrab+plus username" registered-email="your registered email address" password="your license password" />-->
+  <logging>on</logging>
+  <retry time-out="5">4</retry>
+  <timespan>100000000</timespan>
+  <update>f</update>
+ 
+  <!--
+            Replace the next dummy channel entry with the channels you want.
+			You can look into the installed siteini.pack folder on your computer
+  
+            For the latest version,
+            see http://webgrabplus.com/epg-channels for the available sites/channels
+  -->
+  
+  <channel update="i" site="lineup.net.br" site_id="286037" xmltv_id="BAND SP">BAND SP</channel>
+ <channel update="i" site="lineup.net.br" site_id="117143" xmltv_id="CANAL DO BOI">CANAL DO BOI</channel>
+ <channel update="i" site="lineup.net.br" site_id="786630" xmltv_id="CANAL RURAL">CANAL RURAL</channel>
+ <channel update="i" site="lineup.net.br" site_id="824292" xmltv_id="CANAL FUTURA">CANAL FUTURA</channel>
+ <channel update="i" site="lineup.net.br" site_id="511761" xmltv_id="GLOBO SP">GLOBO SP</channel>
+ <channel update="i" site="lineup.net.br" site_id="186540" xmltv_id="GLOBO PI">GLOBO PI</channel>
+ <channel update="i" site="lineup.net.br" site_id="302660" xmltv_id="SBT SP">SBT SP</channel>
+ <channel update="i" site="clarotv.com.br" site_id="465##record" xmltv_id="RECORD TV SP">RECORD TV SP</channel>
+ <channel update="i" site="lineup.net.br" site_id="242657" xmltv_id="REDE TV!">REDE TV!</channel>
+ <channel update="i" site="lineup.net.br" site_id="118280" xmltv_id="TERRA VIVA">TERRA VIVA</channel>
+ <channel update="i" site="lineup.net.br" site_id="675039" xmltv_id="TV BRASIL">TV BRASIL</channel>
+ <channel update="i" site="clarotv.com.br" site_id="1158##cultura" xmltv_id="TV CULTURA">TV CULTURA</channel>
+ <channel update="i" site="lineup.net.br" site_id="260304" xmltv_id="TV ESCOLA">TV ESCOLA</channel>
+</settings>
